@@ -69,9 +69,7 @@ $theme-colors: (
   "light":      $light,
   "dark":       $dark
 );
-$info-text:               $pink !default;
-
-
+$info-text: $pink !default;
 
 $container-max-widths: (
   sm: 540px,
@@ -92,14 +90,8 @@ $grid-breakpoints: (
 // $component-active-bg:         $gray-100;
 // $border-color:                $gray-100;
 $link-decoration: none;
-
-
-
-
-
 $variable-prefix:             bs- !default; // Deprecated in v5.2.0 for the shorter `$prefix`
 $prefix:                      $variable-prefix !default;
-
 
 $spacer: 1rem;
 $spacers: (
@@ -111,8 +103,6 @@ $spacers: (
   5: $spacer * 3,
 );
 // scss-docs-end spacer-variables-maps
-
-
 
 $body-bg: $white;
 $body-color: $gray-700;

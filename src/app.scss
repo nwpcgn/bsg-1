@@ -13,8 +13,8 @@ body {
 	max-width: 100vw;
 	min-height: 100vh;
 	overflow-x: hidden;
-	color: var(--app-color);
-	background-color: var(--app-bg);
+/* 	color: var(--app-color);
+	background-color: var(--app-bg); */
 	overscroll-behavior: none;
 }
 
@@ -36,4 +36,4 @@ body {
 }
 
 @import "page";
-@import "animate";
+// @import "animate";
