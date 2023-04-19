@@ -4,7 +4,9 @@
   import Game2 from "./routes/Game2.svelte";
   import Game3 from "./routes/Game3.svelte";
   const routes = {
-    '*': Game3
+    '/g3': Game3,
+    '/g2': Game2,
+    '*': Game1
   }
 </script>
 
